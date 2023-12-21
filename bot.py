@@ -25,6 +25,6 @@ def main():
     mybot.start_polling()
     # Запускаем бота, он будет работать, пока мы его не остановим принудительно
     mybot.idle()
-
-main()
+if __name__ == "__main__":    
+    main()
     
